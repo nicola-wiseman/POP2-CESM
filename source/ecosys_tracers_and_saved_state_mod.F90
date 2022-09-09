@@ -272,6 +272,15 @@ Contains
     call io_read_fallback_register_tracer(tracername='diazP', &
        fallback_opt='alt_field', alt_tracername='diazC', scalefactor=0.32_r8/117.0_r8)
 
+    call io_read_fallback_register_tracer(tracername='spN', &
+       fallback_opt='alt_field', alt_tracername='spC', scalefactor=16.0_r8/117.0_r8)
+
+    call io_read_fallback_register_tracer(tracername='diatN', &
+       fallback_opt='alt_field', alt_tracername='diatC', scalefactor=16.0_r8/117.0_r8)
+
+    call io_read_fallback_register_tracer(tracername='diazN', &
+       fallback_opt='alt_field', alt_tracername='diazC', scalefactor=16.0_r8/117.0_r8)
+
     call io_read_fallback_register_field(fieldname='MARBL_PH_SURF', &
        fallback_opt='const', const_val=c0)
 
